@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FoldTableViewController : UIViewController
+@interface FoldTableViewController2 : UIViewController
 
 @end

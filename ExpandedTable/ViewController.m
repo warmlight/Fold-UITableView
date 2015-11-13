@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FoldTableViewController1.h"
+#import "FoldTableViewController2.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIButton *canExpandSeveralSection = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 30)];
+    canExpandSeveralSection.titleLabel.font = [UIFont systemFontOfSize:14];
+    [canExpandSeveralSection setTitle:@"可展开多个分区" forState:UIControlStateNormal];
+    [canExpandSeveralSection addTarget:self action:@selector(canExpandSeveralSectionClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:canExpandSeveralSection];
+    
+    UIButton *expandOneSection = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 100, 30)];
+    expandOneSection.titleLabel.font = [UIFont systemFontOfSize:14];
+    [expandOneSection setTitle:@"只展开一个分区" forState:UIControlStateNormal];
+    [expandOneSection addTarget:self action:@selector(expandOneSectionClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:expandOneSection];
     // Do any additional setup after loading the view.
+}
+
+- (void)canExpandSeveralSectionClick {
+    FoldTableViewController1 *expandSeveralSectionCon = [[FoldTableViewController1 alloc] init];
+    [self.navigationController pushViewController:expandSeveralSectionCon  animated:YES];
+}
+
+- (void)expandOneSectionClick {
+    FoldTableViewController2 *expandOneSectionCon = [[FoldTableViewController2 alloc] init];
+    [self.navigationController pushViewController:expandOneSectionCon  animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

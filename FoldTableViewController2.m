@@ -1,14 +1,14 @@
 //
-//  FoldTableViewController.m
+//  FoldTableViewController2.m
 //  ExpandedTable
 //
 //  Created by yiban on 15/10/23.
 //
 //
 
-#import "FoldTableViewController.h"
+#import "FoldTableViewController2.h"
 
-@interface FoldTableViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface FoldTableViewController2 ()<UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) NSMutableDictionary *sourceDic;       //要显示的数据
 @property (strong, nonatomic) NSArray * sectionTitleArray;          //分区标题
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation FoldTableViewController
+@implementation FoldTableViewController2
 
 - (void)viewDidLoad {
     [super viewDidLoad];

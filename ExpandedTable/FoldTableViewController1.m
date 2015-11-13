@@ -1,14 +1,14 @@
 //
-//  ViewController.m
+//  FoldTableViewController1.m
 //  ExpandedTable
 //
 //  Created by yiban on 15/10/16.
 //
 //
 
-#import "ViewController.h"
+#import "FoldTableViewController1.h"
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface FoldTableViewController1 ()<UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) NSMutableDictionary *sourceDic;       //要显示的数据
 @property (strong, nonatomic) NSMutableArray *currentExpandSection; //展开的section
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation ViewController
+@implementation FoldTableViewController1
 
 - (void)viewDidLoad {
     [super viewDidLoad];

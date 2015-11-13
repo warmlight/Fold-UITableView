@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD04C5861BDA15AA00881FF8 /* FoldTableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04C5851BDA15AA00881FF8 /* FoldTableViewController2.m */; settings = {ASSET_TAGS = (); }; };
 		CD778B341BD08ADF00D3AC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD778B331BD08ADF00D3AC67 /* main.m */; };
 		CD778B371BD08ADF00D3AC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD778B361BD08ADF00D3AC67 /* AppDelegate.m */; };
-		CD778B3A1BD08ADF00D3AC67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD778B391BD08ADF00D3AC67 /* ViewController.m */; };
+		CD778B3A1BD08ADF00D3AC67 /* FoldTableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = CD778B391BD08ADF00D3AC67 /* FoldTableViewController1.m */; };
 		CD778B3D1BD08ADF00D3AC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD778B3B1BD08ADF00D3AC67 /* Main.storyboard */; };
 		CD778B3F1BD08ADF00D3AC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD778B3E1BD08ADF00D3AC67 /* Assets.xcassets */; };
 		CD778B421BD08ADF00D3AC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD778B401BD08ADF00D3AC67 /* LaunchScreen.storyboard */; };
 		CD778B4D1BD08ADF00D3AC67 /* ExpandedTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD778B4C1BD08ADF00D3AC67 /* ExpandedTableTests.m */; };
 		CD778B581BD08ADF00D3AC67 /* ExpandedTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD778B571BD08ADF00D3AC67 /* ExpandedTableUITests.m */; };
+		CD778B661BD0937A00D3AC67 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = CD778B651BD0937A00D3AC67 /* up.png */; settings = {ASSET_TAGS = (); }; };
+		CD778B681BD0938500D3AC67 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = CD778B671BD0938500D3AC67 /* down.png */; settings = {ASSET_TAGS = (); }; };
+		CDAF909E1BF590E4007230FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAF909D1BF590E4007230FF /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD04C5841BDA15AA00881FF8 /* FoldTableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoldTableViewController2.h; path = ../FoldTableViewController2.h; sourceTree = "<group>"; };
+		CD04C5851BDA15AA00881FF8 /* FoldTableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoldTableViewController2.m; path = ../FoldTableViewController2.m; sourceTree = "<group>"; };
 		CD778B2F1BD08ADF00D3AC67 /* ExpandedTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandedTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD778B331BD08ADF00D3AC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD778B351BD08ADF00D3AC67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD778B361BD08ADF00D3AC67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD778B381BD08ADF00D3AC67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD778B391BD08ADF00D3AC67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD778B381BD08ADF00D3AC67 /* FoldTableViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoldTableViewController1.h; sourceTree = "<group>"; };
+		CD778B391BD08ADF00D3AC67 /* FoldTableViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldTableViewController1.m; sourceTree = "<group>"; };
 		CD778B3C1BD08ADF00D3AC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD778B3E1BD08ADF00D3AC67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD778B411BD08ADF00D3AC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		CD778B531BD08ADF00D3AC67 /* ExpandedTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandedTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD778B571BD08ADF00D3AC67 /* ExpandedTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandedTableUITests.m; sourceTree = "<group>"; };
 		CD778B591BD08ADF00D3AC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD778B651BD0937A00D3AC67 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		CD778B671BD0938500D3AC67 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		CDAF909C1BF590E4007230FF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDAF909D1BF590E4007230FF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,20 @@
 		CD778B311BD08ADF00D3AC67 /* ExpandedTable */ = {
 			isa = PBXGroup;
 			children = (
+				CDAF909C1BF590E4007230FF /* ViewController.h */,
+				CDAF909D1BF590E4007230FF /* ViewController.m */,
+				CD04C5841BDA15AA00881FF8 /* FoldTableViewController2.h */,
+				CD04C5851BDA15AA00881FF8 /* FoldTableViewController2.m */,
+				CD778B381BD08ADF00D3AC67 /* FoldTableViewController1.h */,
+				CD778B391BD08ADF00D3AC67 /* FoldTableViewController1.m */,
 				CD778B351BD08ADF00D3AC67 /* AppDelegate.h */,
 				CD778B361BD08ADF00D3AC67 /* AppDelegate.m */,
-				CD778B381BD08ADF00D3AC67 /* ViewController.h */,
-				CD778B391BD08ADF00D3AC67 /* ViewController.m */,
 				CD778B3B1BD08ADF00D3AC67 /* Main.storyboard */,
 				CD778B3E1BD08ADF00D3AC67 /* Assets.xcassets */,
 				CD778B401BD08ADF00D3AC67 /* LaunchScreen.storyboard */,
 				CD778B431BD08ADF00D3AC67 /* Info.plist */,
+				CD778B651BD0937A00D3AC67 /* up.png */,
+				CD778B671BD0938500D3AC67 /* down.png */,
 				CD778B321BD08ADF00D3AC67 /* Supporting Files */,
 			);
 			path = ExpandedTable;
@@ -243,7 +259,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD778B421BD08ADF00D3AC67 /* LaunchScreen.storyboard in Resources */,
+				CD778B661BD0937A00D3AC67 /* up.png in Resources */,
 				CD778B3F1BD08ADF00D3AC67 /* Assets.xcassets in Resources */,
+				CD778B681BD0938500D3AC67 /* down.png in Resources */,
 				CD778B3D1BD08ADF00D3AC67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD778B3A1BD08ADF00D3AC67 /* ViewController.m in Sources */,
+				CD04C5861BDA15AA00881FF8 /* FoldTableViewController2.m in Sources */,
+				CD778B3A1BD08ADF00D3AC67 /* FoldTableViewController1.m in Sources */,
 				CD778B371BD08ADF00D3AC67 /* AppDelegate.m in Sources */,
 				CD778B341BD08ADF00D3AC67 /* main.m in Sources */,
+				CDAF909E1BF590E4007230FF /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +515,7 @@
 				CD778B5E1BD08ADF00D3AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD778B5F1BD08ADF00D3AC67 /* Build configuration list for PBXNativeTarget "ExpandedTableTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +524,7 @@
 				CD778B611BD08ADF00D3AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD778B621BD08ADF00D3AC67 /* Build configuration list for PBXNativeTarget "ExpandedTableUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +533,7 @@
 				CD778B641BD08ADF00D3AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
